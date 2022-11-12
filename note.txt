@@ -1,0 +1,21 @@
+Database:
+- messages: 
+  On les séparent en messages de 1024 caractères,
+  si il y a plus de 1024 caractères, on INSERT dans la table `message_content` avec un identifiant UNIQUE (enieme chunk + timestamp + Channel ID + User ID, en base64)
+  
+  Format de l'identifiant de contenu de messages (sans base64):
+    chunkID_timestamp_channel/user
+  
+  L'encryption du contenu du message se fera via un algo (crate: magic_encryption) et la clé sera l'id + une fin secrète 
+
+  La table `message` contiendra des données telle que l'auteur, le salon, l'id pointant vers le PREMIER chunk de messages etc...
+
+- utilisateur: Pour chaque utilisateur, nous stockons le mot de passe hashé avec l'algo sha-256 (https://stackoverflow.com/questions/2240973/how-long-is-the-sha256-hash)
+  Nous stockons également des choses comme le nom d'utilisateur etc...
+
+- salon: Pour chaque salon, nous stockons une ID de salon (UuID), son nom et diverses infos
+  Grace à l'id de salon, nous pouvons identifier tout les messages de ce salon
+  Une table "channel_users" contiendra l'id du salon et des id d'utilisateurs -> en faisant une query sur cette table avec l'id du salon, on aura tout les utilisateurs
+
+
+IBM: https://my.vertabelo.com/logical/model/fZR9LJbt0cGqUnYiltA2xDmwBCAJrZNy

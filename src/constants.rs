@@ -1,0 +1,9 @@
+pub const PORT: i32 = 5600;
+pub const LISTENER_ADRESS: &str = "127.0.0.1";
+
+pub const MYSQL_USER: &str = "root";
+pub const MYSQL_DOMAIN: &str = "127.0.0.1:3307";
+pub const MYSQL_DB: &str = "chatty";
+pub const MYSQL_PASSWORD: &str = "CKe+2yHJQk7qPdlqljnpSw==";
+
+pub const SECURITY_KEY: &str = "k=1vyDzrxbRBcUq=uk5/=4dgh&L7nn72S1&FgPN13LdPtJvIDrNZWQ+xlUKwUlNoD4mrjatLloOg2&HLalI37-57zzlyLinGLmR1StXRdhZE1e8*YciGi8n2PaTsqhiqSUqe/JYdYfye3Z62cmc=Fmri37FAFZQA91i9B2tqQG+M9nXQAesyn/K05gu7YJ7pPop+7M/4ZxSW1nj-oFh=ODkrwCqHReBLOlmOr-n+2i&/Va&QD0USdnp-71BOeO&u=sgx5eUhvk*v9lL=C4WK=wP2lZEafGFw-zn/k6Z2&v0GDtY0L+38VNC48g84a0cjvtrhkxWgq7BvF-1hJicS3bRzE*dpRr-fx/GCtOFrJvJhD05OqbwljS-p6USx6SMO-GO2ba&fA7xtFLSsUfNoR7qy/1&IT62NaySrir5KZoT=dQVxg3dKOJeWpMcgmjtOpYZqske&*W3437kPmcyzr4A=Of2B&90ZTv=v-fn=U+tfokP*K2vS0lOlP*Am15O8sp8toO53zE0ogzeP68-JJ2OiRIRA7f*l6yP=s*lkK9IDPriR/W1RW+aF5oKiUBT*bFL1lYLN8BQEvy0gDy0jLE/WJExD04LsIEv4nqiuyl0szwmBtuB&cx=IHJTsEoMVJocC22-foaqzXs5ItdtNwu&8DGiklB66eVHpFQnWEMKvdq&ArDYx-0rk2YVnhMUYt3i75EmsASp5X=sN5Ch9A3zyneg=FA0HR6mCUfuLaixgkJcqbtRWXLplsYi-6BeTqgtdh+Oiyo+Rm3t1v6=Wqbtct-/=VuvjUxT1-xTt*mpuAd=1dOEpt7JmCuZ5hwCH6Vz/kUj*H3EBkyDTB9pQSbzXw0SL1RU1Z4NwI&*DInGlGcOyHXEwvn89UWm9dZ9MDk*+=MrZMQZaOm8mwPpO8q*ZTt4&ENcuHtAwvZ*TcmwbrD/LCNbIB163AOPeDreEuHNrhbo4YbQN*1-Xq0&FriQchMHk6WfRKG+aSWmzyd3cVZxDmW6oX3KLDupWBE/GfHQwf3ru=Y=SVmylXlP52R+3z6x=oL/1Mr4eE-uYf+6-E&tw3b6=PYJ771Jf*J6a60deQQF&4iXK60G4VVLGznp==QODNrWv5gAP&Cp=kFp=eqMbSMX-SiN=SXf=0tTTCOVBIG/8sjW3Lg4EidWdMr3Fu/gVPK27*Sn07YuqeU6m/*D481hMLO2dKi9CBQ6OUZO-EMzkmSeUjNoeMu0tfeA62Uk2fdjzLnbH7V**mqFNOn3Oj-R8ZzCH6HzFTF15CxCpEOEPqzQP*0xpe4vYhBnwkLB8OTjEvTyUH6mA87AjxcJkjxenL3oxtz&W5OD0Eh5Qygm/3lR7Y+1*KYUR3uJPQ6Pc-YzeO17SkyQbAivpCHr9fAVBtJ2dle6gTwZDvMv-*jpazNg0E-DKosmTgEzSBNwKvEcypChlJR";
